@@ -19,9 +19,7 @@ const createUser = async ({ first_name, last_name, email, password})=>{
             first_name: userFromRequest.first_name,
             last_name: userFromRequest.last_name,
             email: userFromRequest.email,
-            password: userFromRequest.password,
-            createdAt: userFromRequest.createdAt,
-            updatedAt: userFromRequest.updatedAt
+            password: userFromRequest.password
         })
         const token =  await jwt.sign({email: createdUser.email, _id: createdUser._id}, process.env.JWT_SECRET,        
              { expiresIn: '1h' })
@@ -29,14 +27,10 @@ const createUser = async ({ first_name, last_name, email, password})=>{
 
         return {
             code: 200,
-            token,
             message: 'Registered successfuly',
             data: {
-                first_name: createdUser.first_name,
-                last_name: createdUser.last_name,
-                email: createdUser.email,
-                createdAt: createdUser.createdAt,
-                updatedAt: createdUser.updatedAt
+                createdUser,
+                token
             }
         }
     } catch (error) {
