@@ -58,7 +58,7 @@ const updateAPostToPublished = async(req, res)=>{
      })
      
   }
-  if (post.author.toString() !== req.user._id.toString()){
+  if (post.author._id.toString() !== req.user._id.toString()){
       return res.status(401).json({
      message: 'You are unauthorized to publish'
  })

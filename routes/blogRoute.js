@@ -7,7 +7,7 @@ const middleware= require('../middlewares/authMiddleware')
 
 router.get('/', controller.getAllPublishedPosts)
 router.get('/:postId', controller.getOnePost)
-router.get('/myPosts', middleware.bearerTokenAuth, controller.getMyPosts)
+router.get('/myPosts/:userId', middleware.bearerTokenAuth, controller.getMyPosts)
 router.post('/', middleware.bearerTokenAuth, controller.createPost)
 router.put('/:postId', middleware.bearerTokenAuth, controller.updateAPostToPublished)
 router.patch('/:postId', middleware.bearerTokenAuth, controller.editApost)
