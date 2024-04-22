@@ -5,8 +5,7 @@ const app = express()
 const connectToMongodb = require('./db')
 const expressWinston = require('express-winston')
 require('dotenv').config()
-const viewRouter = require('./views/views.router')
-const { transports , format, transport} = require('winston')
+require('winston')
 require('winston-mongodb')
 const logger = require('./logger')
 
@@ -31,7 +30,6 @@ res.status(200).json({
   message: success
 })
 })
-
     
 app.use('/', userRoute )
 app.use('/blogs', blogRoute)
