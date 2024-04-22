@@ -31,34 +31,12 @@ res.status(200).json({
   message: success
 })
 })
-// app.use('/views', viewRouter)
+
     
 app.use('/', userRoute )
 app.use('/blogs', blogRoute)
 
 
-// app.get('/error', (req, res)=>{
-//   throw new Error('This is a custom error')
-// })
-// const myFormat = format.printf(({level, meta, timestamp})=>{
-//   return ` ${timestamp}, ${level}: ${meta.message}`
-// })
-// app.use(expressWinston.errorLogger({
-//   transports: [ 
-//     new transports.File(
-//     {
-//       filename: 'logsInternalErrors.log'
-//     })],
- 
-//     format: format.combine(
-//       format.json(),
-//       format.timestamp(),
-//       myFormat
-      
-//     ),
- 
-// }))
- 
 
 
 // global error handler
