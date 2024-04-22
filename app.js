@@ -2,8 +2,8 @@ const express = require('express')
 const userRoute = require('./routes/userRoute')
 const blogRoute = require('./routes/blogRoute')
 const app = express()
+const connectToMongodb = require('./db')
 const expressWinston = require('express-winston')
-const mongoose = require('mongoose')
 require('dotenv').config()
 const viewRouter = require('./views/views.router')
 const { transports , format, transport} = require('winston')
@@ -11,26 +11,8 @@ require('winston-mongodb')
 const logger = require('./logger')
 
 const PORT = process.env.PORT || 3200
+connectToMongodb()
 
-const connectToMongodb= async () => {
-  try {
-     await mongoose.connect(process.env.MONGODB_CONNECTION_URL,
-      // {useNewUrlParser: true,
-      // useUnifiedTopology: true}
-    )
-     console.log('MongoDB Connected Successfully');
-  } catch (error) {
-    console.log(error);
-    process.exit(1);
-  }
-}
-
-//Connect to the database before listening
-connectToMongodb().then(() => 
-    app.listen(PORT, () => {
-        console.log(`Server started on Port ${PORT}`)
-    }
-    ))
 
 
 app.use(expressWinston.logger(
@@ -89,7 +71,11 @@ app.use((err, req, res, next) => {
     })
 })
 
-module.exports = app
+app.listen(PORT, () => {
+  console.log(`Server started on Port ${PORT}`)
+}
+)
+
 
 
 
