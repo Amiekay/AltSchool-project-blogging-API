@@ -8,10 +8,7 @@
     "start": "node app.js"
   },
   "jest": {
-    "testEnvironment": "node",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ]
+    "testEnvironment": "node"
   },
   "author": "Amara",
   "license": "ISC",

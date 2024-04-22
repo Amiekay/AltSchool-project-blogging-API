@@ -298,3 +298,7 @@
 { message: 'Bad request', level: 'warn' }
 { message: 'Bad request', level: 'warn' }
 { message: 'Bad request', level: 'warn' }
+{ message: 'Login process not completed', level: 'warn' }
+{ message: 'Login process not completed', level: 'warn' }
+{ message: 'Bad request', level: 'warn' }
+{ message: 'Bad request', level: 'warn' }
