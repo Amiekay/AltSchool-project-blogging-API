@@ -20,16 +20,16 @@ app.use(expressWinston.logger(
     statusLevels: true
   }
 ))
+
+
+app.get("/", (req, res) => {
+  res.status(200).json( { msg: "Welcome" });
+});
+  
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.set('view engine', 'ejs');
-
-app.get('/', (req, res)=>{
-res.status(200).json({
-  message: success
-})
-})
+// app.set('view engine', 'ejs');
     
 app.use('/', userRoute )
 app.use('/blogs', blogRoute)
@@ -40,10 +40,11 @@ app.use('/blogs', blogRoute)
 // global error handler
 
 app.use((err, req, res, next) => {
-  logger.warn('This is a warn log')
+  // logger.warn('This is a warn log')
+  console.log(err.stack)
     res.status(500).json({
         data: null,
-        error: 'Server Error'
+        error: err
     })
 })
 

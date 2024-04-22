@@ -44,3 +44,271 @@
   level: 'error',
   message: 'HTTP GET /error'
 }
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzY4NTk2MiwiZXhwIjoxNzEzNjg5NTYyfQ.oD_IyG849stlmjEbKCFnV3UO12MEb0kqsRiOVLvw3qw',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 13
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 11
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzY4NTk2MiwiZXhwIjoxNzEzNjg5NTYyfQ.oD_IyG849stlmjEbKCFnV3UO12MEb0kqsRiOVLvw3qw',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 31
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzY4NTk2MiwiZXhwIjoxNzEzNjg5NTYyfQ.oD_IyG849stlmjEbKCFnV3UO12MEb0kqsRiOVLvw3qw',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 2
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzY4NTk2MiwiZXhwIjoxNzEzNjg5NTYyfQ.oD_IyG849stlmjEbKCFnV3UO12MEb0kqsRiOVLvw3qw',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 23
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'content-length': '61',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzY4NTk2MiwiZXhwIjoxNzEzNjg5NTYyfQ.oD_IyG849stlmjEbKCFnV3UO12MEb0kqsRiOVLvw3qw',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 3
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 14
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 5
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 3
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 1
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 29
+  },
+  level: 'error',
+  message: 'HTTP GET /'
+}
