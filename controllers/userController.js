@@ -1,7 +1,8 @@
 const userModel = require('../models/userModel')
 const jwt = require('jsonwebtoken')
 require('dotenv').config()
-
+const logger = require('../logger')
+require('winston-mongodb')
 
 
 const createUser = async (req, res)=>{
@@ -26,7 +27,7 @@ try {
          { expiresIn: '1h' })
 
 
-
+         logger.info('[CreateUser] => login process done')
     res.status(200).json({
         token,
         message: 'Registered successfuly',
@@ -38,6 +39,7 @@ try {
         }
     })
 } catch (error) {
+    logger.warn('Login process not completed')
     res.status(400).json({
         message: 'an error occured',
         data: error
@@ -50,6 +52,7 @@ try {
 const login = async(req, res)=>{
  const {email, password} = req.body
  try {
+    logger.info('[CreateUser] => login process started')
     // check if user exists
     const user= await userModel.findOne({
         email: email

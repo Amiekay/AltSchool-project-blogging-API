@@ -14,8 +14,8 @@ class Connection {
     const mongoUri = this.mongoServer.getUri();
 
     this.connection = await mongoose.connect(mongoUri, {
-      // useNewUrlParser: true,
-      // useUnifiedTopology: true,
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
     });
   }
 
