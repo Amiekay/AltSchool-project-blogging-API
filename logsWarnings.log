@@ -607,3 +607,269 @@
   level: 'error',
   message: 'HTTP GET /'
 }
+{
+  meta: {
+    req: {
+      url: '/signup',
+      headers: {
+        'content-length': '99',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/signup',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 370
+  },
+  level: 'warn',
+  message: 'HTTP POST /signup'
+}
+{
+  meta: {
+    req: {
+      url: '/signup',
+      headers: {
+        'content-length': '98',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/signup',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 383
+  },
+  level: 'warn',
+  message: 'HTTP POST /signup'
+}
+{
+  meta: {
+    req: {
+      url: '/blogs/myPosts/6620fa67b061fe550331104e',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzc0ODU2NiwiZXhwIjoxNzEzNzUyMTY2fQ.H33DIlqOZ-P1vuyPmPL2a5LHCk4LRKpmX8G-atL8POk',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/blogs/myPosts/6620fa67b061fe550331104e',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 21
+  },
+  level: 'warn',
+  message: 'HTTP GET /blogs/myPosts/6620fa67b061fe550331104e'
+}
+{
+  meta: {
+    req: {
+      url: '/blogs',
+      headers: {
+        'content-length': '3298',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzc0ODU2NiwiZXhwIjoxNzEzNzUyMTY2fQ.H33DIlqOZ-P1vuyPmPL2a5LHCk4LRKpmX8G-atL8POk',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/blogs',
+      query: {}
+    },
+    res: { statusCode: 401 },
+    responseTime: 6
+  },
+  level: 'warn',
+  message: 'HTTP POST /blogs'
+}
+{
+  meta: {
+    req: {
+      url: '/views/home',
+      headers: {
+        host: 'localhost:3200',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Linux"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/views/home',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: 'warn',
+  message: 'HTTP GET /views/home'
+}
+{
+  meta: {
+    req: {
+      url: '/views/blog/create',
+      headers: {
+        host: 'localhost:3200',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Linux"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/views/blog/create',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: 'warn',
+  message: 'HTTP GET /views/blog/create'
+}
+{
+  meta: {
+    req: {
+      url: '/favicon.ico',
+      headers: {
+        host: 'localhost:3200',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+        'sec-ch-ua-platform': '"Linux"',
+        accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        'sec-fetch-dest': 'image',
+        referer: 'http://localhost:3200/views/index',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/favicon.ico',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /favicon.ico'
+}
+{
+  meta: {
+    req: {
+      url: '/signup',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        host: 'localhost:3200',
+        connection: 'close',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/signup',
+      query: {}
+    },
+    res: { statusCode: 422 },
+    responseTime: 11
+  },
+  level: 'warn',
+  message: 'HTTP POST /signup'
+}
+{
+  meta: {
+    req: {
+      url: '/signup',
+      headers: {
+        'content-length': '97',
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        'content-type': 'application/json',
+        host: 'localhost:3200',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/signup',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 331
+  },
+  level: 'warn',
+  message: 'HTTP POST /signup'
+}
+{
+  meta: {
+    req: {
+      url: '/login',
+      headers: {
+        'accept-encoding': 'gzip, deflate, br',
+        cookie: 'jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImlhdCI6MTcxMzQ5MjM2OCwiZXhwIjoxNzEzNDk1OTY4fQ.UEpqMuhoSc_mHjeVDI4yrGhRek2WXAn03doM0Q61deQ',
+        accept: '*/*',
+        'user-agent': 'Thunder Client (https://www.thunderclient.com)',
+        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcnJ5QGdtYWlsLmNvbSIsIl9pZCI6IjY2MjBmYTY3YjA2MWZlNTUwMzMxMTA0ZSIsImZpcnN0X25hbWUiOiJKZXJyeSIsImlhdCI6MTcxMzY4NTk2MiwiZXhwIjoxNzEzNjg5NTYyfQ.oD_IyG849stlmjEbKCFnV3UO12MEb0kqsRiOVLvw3qw',
+        host: 'localhost:3200',
+        connection: 'close',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/login',
+      query: {}
+    },
+    res: { statusCode: 422 },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP POST /login'
+}

@@ -7,6 +7,8 @@ const expressWinston = require('express-winston')
 require('dotenv').config()
 require('winston')
 require('winston-mongodb')
+
+const viewsRoute = require('./views/views.router')
 const logger = require('./logger')
 
 const PORT = process.env.PORT || 3200
@@ -29,7 +31,8 @@ app.get("/", (req, res) => {
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-// app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');
+app.use('/views',viewsRoute )
     
 app.use('/', userRoute )
 app.use('/blogs', blogRoute)

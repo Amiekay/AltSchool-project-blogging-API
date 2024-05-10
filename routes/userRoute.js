@@ -1,15 +1,15 @@
 const express = require('express')
 const router = express.Router()
 const controller = require('../controllers/userController')
-const globalmiddleware = require('../middlewares/globalMiddleware')
+const validateUser = require('../middlewares/usersMiddleware')
 
 
 
 // Create user
-router.post('/signup', globalmiddleware.checkBody, controller.createUser)
+router.post('/signup', validateUser.ValidateUserCreationWithJoi, controller.createUser)
 
 // Signin user
-router.post('/login', globalmiddleware.checkBody, controller.login)
+router.post('/login', validateUser.LoginValidation, controller.login)
 
 
 
